@@ -1,36 +1,43 @@
 <!DOCTYPE html>
+<!-- CSS Stylesheets with Relative Paths -->
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
   <title>Teya Robinson</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-<img src = "https://github.com/teyarobinson/teyarobinson.github.io/blob/master/UNADJUSTEDNONRAW_thumb_963.jpg" alt = "Photo of Teya Robinson">
-<p>A Data Analyst with data optimization and Six Sigma Scrum Master certification, 
-  looking to utilize business analyst experience along with technical skills to move a company forward. 
-  Through my work various technical positions, I obtained various skills such as, project management, 
-  proficiency in business documentation, and utilizing agile methodologies to provide continuous improvement.</p>
 
-</br>
-<p>Hobbies: Reading, Hiking, Enjoying live music</p>
+  <header>
+    <h1>Student Bio</h1>
+  </header>
 
-<ul>
-  <li>Instagram: teya.robinson</li>
-  <li>Facebook: Teya Robinson</li>
-</ul>
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <h2 id="bio-name">Your Name</h2>
+        <img id="bio-image" src="https://github.com/teyarobinson/teyarobinson.github.io/blob/master/UNADJUSTEDNONRAW_thumb_963.jpg" alt="Your Name">
+      </section>
+      <p>A Data Analyst with data optimization and Six Sigma Scrum Master certification, 
+        looking to utilize business analyst experience along with technical skills to move a company forward. 
+        Through my work various technical positions, I obtained various skills such as, project management, 
+        proficiency in business documentation, and utilizing agile methodologies to provide continuous improvement.</p>
+    </section>
 
-<table border="1">
-    <thead>
-      <tr>
-        <th>Favorite Movie</th>
-        <th>Favorite Book</th>
-        <th>Favorite Song</th>
-      </tr>
-    </table>
+    <aside id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">teya.robinson@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+      </ul>
+    </aside>
+  </main>
 
-
-</table>
 </body>
 
 </html>
